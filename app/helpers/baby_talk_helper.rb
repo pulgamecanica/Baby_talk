@@ -1,0 +1,2 @@
+module BabyTalkHelper
+end

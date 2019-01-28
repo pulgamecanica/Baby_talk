@@ -1,0 +1,287 @@
+	// Place all the styles related to the BabyTalk controller here.
+	// They will automatically be included in application.css.
+	// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (1600 - 300)));
+  color: White;
+}
+
+header {
+  padding-top: 10px;
+  background: Black;
+  opacity: 0.9;
+  padding: 10px;
+}
+
+.banner {
+  padding-left: 10vw;
+  position: relative;
+}
+
+.banner hr {
+  margin-top: 2vmin;
+}
+
+#title {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  color: white;
+  font-weight: 700;
+  line-height: .2em;
+  display: inline;
+}
+
+#title a {
+  text-decoration: none
+}
+
+.yellow {
+  color: yellow;
+}
+
+#subtitle {
+  font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+  color: white;
+  line-height: .2em;
+  font-weight: 300;
+}
+
+.menu {
+  position: relative;
+}
+
+#menu0 {
+  margin-right: 10vmin;
+}
+
+#menu1 {
+  margin-right: 10vmin;
+}
+
+#menu2 {
+  margin-right: 10vmin;
+}
+
+#menu3 {
+  margin-right: 10vmin;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: Black;
+  opacity: 0.9;
+  padding-bottom: 2vmin;
+  padding-top: 1vmin;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  font-size: calc(9px + (16 - 9) * ((100vw - 300px) / (1600 - 300)));
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: Gray;
+}
+
+
+nav a:active {
+  color: yellow;
+}
+
+.get-started {
+  background: url(./yellow.jpg); /*mudei isto tambem*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vmax;
+  position: relative;
+  text-align: center;
+}
+
+.get-started .button {
+  color: white;
+  font-size: 3vmin;
+  font-weight: 500;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  padding-top: 25%;
+  text-align: center;
+  display: inline-block;
+  padding: 15px 32px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+}
+
+.get-started .button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  color: red;
+}
+
+.get-started .button a {
+  text-decoration: none;
+}
+
+h2, h2 a {
+  color: white;
+  font-weight: 400;
+}
+
+.get-started h2 {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+}
+
+.info1 {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.info1 p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info1 h2 {
+  color: white;
+}
+
+.info1 img {
+  width: 10vmax;
+  display: inline-block;
+}
+
+.info2 {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.info2 p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info2 h2 {
+  color: white;
+}
+
+.info2 img {
+  width: 10vmax;
+  display: inline-block;
+}
+
+.info3 {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.info3 td {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info3 h2 {
+  color: white;
+}
+
+.info3 th {
+  color: white;
+  font-weight: 400;
+  font-size: calc(14px + (25 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.info3 td {
+  font-weight: 300;
+  text-align: center;
+  font-size: calc(10px + (20 - 10) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.info3 img {
+  width: 10vmax;
+  display: inline-block;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.footer p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info4 {
+  background-color: #ffb400;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.info4 h2 {
+  color: white;
+}
+
+.info4 p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info4 img {
+  width: 30vmax;
+}
+
+.info5 {
+  background-color: #b05cff;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.info5 h2 {
+  color: white;
+}
+
+.info5 p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+.info6 {
+  background-color: #ff6ebb;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.info6 h2 {
+  color: white;
+}
+
+.info6 p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.info6 img {
+  width: 30vmax;
+}

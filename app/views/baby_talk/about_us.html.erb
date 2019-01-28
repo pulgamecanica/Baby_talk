@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1a1a" />
+  <title> BabyAcademy</title>
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway:100,500,600,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+</head>
+
+<body>
+
+  <header>
+    <div class="banner">
+      <br>
+      <h1 id="title">Baby<a href="index.html"class="yellow">Academy</a> </h1>
+      <h2 id="subtitle"> Every child has genius potential. </h2>
+      <hr width=200vmin align=left>
+    </div>
+  </header>
+
+  <nav class="menu" align="center">
+    <ul>
+      <li id="menu0"><a href="/baby_talk/home"> Home </a></li>
+      <li id="menu1" class="yellow"><a href="/baby_talk/about_us"> About Us </a></li>
+      <li id="menu2"><a href="/baby_talk/how_it_works"> How it Works </a></li>
+      <li id="menu3"><a href="/baby_talk/blog"> Blog </a></li>
+      <li id="menu4"><a href="/baby_talk/contact"> Contact </a></li>
+    </ul>
+  </nav>
+<!-- Mudei issto porque online nao podes usar files mais sim os enderesos url-->
+  <div class="info4">
+    <h2> Who we are</h2>
+    <!--<img src="/images/founders.png"> Em rails issto nao é boa pratica...e pode nao funcionar-->
+    <%= image_tag "founders.png" %>
+    <p> Baby<a class="yellow">Academy</a> is an app created by two high-school students, <strong>Tomás Philippart</strong> (Portuguese/French) and <strong>André Hernández</strong> (Mexican/Portuguese), both living in Portugal.
+The idea was originally born as a casual project, later developed furthermore, and based on the existence of the books “How To Teach Your Baby To Read”, “How To Teach Your Baby Math” and “How To Teach Your Baby To Be Physically Superb” by Glenn Doman.
+
+  </div>
+
+  <div class="info5">
+    <h2> Our mission</h2>
+    <p> The Baby<a class="yellow">Academy</a> team is on a mission to help developing children around the world intelectually. <br>
+      Most parents consider their children to be too young to be able to learn and prefer to wait until later. However, the Doman Method suggests an early start, in order to establish not only a <strong>better cognitive function</strong> and <strong>intellect of the child</strong> but also physical aspects such as <strong>coordination</strong>, <strong>physical development</strong> and others.
+    </p>
+  </div>
+
+  <div class="info6">
+    <h2> Inspiration</h2>
+    <!--<img src="./images/glenn_doman.png"> Same-->
+    <%= image_tag "glenn_doman.png", atl:"Glenn Doman" %>
+    <h2> Glenn Doman, founder of The Doman Method (1919-2013)</h2>
+    <p> Without Mr. Doman and the Doman International organization, none of this would be possible. Thank you.
+  </div>
+
+
+</body>
+
+<footer>
+  <div class="footer">
+    <p>&copy; Baby<a class="yellow">Academy</a> 2019</p>
+  </div>
+</footer>
+
+</html>
+
